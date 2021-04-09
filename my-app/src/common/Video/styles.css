@@ -1,0 +1,68 @@
+/* Container needed to position the button. Adjust the width as needed */
+.container_b {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150;
+  padding-left: 200;
+}
+
+/* Make the image responsive */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container_b .cimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150;
+  height: 150;
+}
+/* Style the button and place it in the middle of the container/image */
+.container_b .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(137, 211, 130);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container_b .btn1 {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  border: 1px solid #20ee7d;
+  background-color: transparent;
+  height: 50px;
+  width: 100px;
+  color: #ffffff;
+  font-size: 1.5em;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.container_b .btn:hover {
+  background-color: rgb(142, 156, 236);
+}
+
+.play {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
