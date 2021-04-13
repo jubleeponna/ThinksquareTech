@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import automotive from '../../images/automotive.png'
+import automotive from '../../images/auto.jpg'
 //import about from 'Data/about.json';
 
 const useit = makeStyles({
@@ -27,7 +27,7 @@ export default function automotiveCard() {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Aero Space Engineering"
+          alt="Automotive"
           height="360"
           width="1500"
           
@@ -36,7 +36,7 @@ export default function automotiveCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-          Build, fly and maintain smarter aircraft
+          Drive the change by changing the drive
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
           We help Aerospace & Defense companies accelerate new product development, smoothen supply chain, strengthen aftermarket services, and embrace digital technologies

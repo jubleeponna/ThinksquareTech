@@ -70,9 +70,9 @@ export default function Header() {
     document.body.style.backgroundImage = "none";
     window.open('/aerospace',"_self")
  };
- const handleWindturbines = () => {
+ const handleAutomotives = () => {
   document.body.style.backgroundImage = "none";
-  window.open('/windturbines',"_self")
+  window.open('/automotive',"_self")
 };
 const handleGasturbines = () => {
   document.body.style.backgroundImage = "none";
@@ -137,7 +137,7 @@ const handleSWandIT = () => {
              >
                <MenuItem onClick={handleAeroSpace}>Aero Space & Defence Engineering</MenuItem>
                <MenuItem onClick={handleAeroEngines}>Aero Engines</MenuItem>
-               <MenuItem onClick={handleWindturbines}>Automotive</MenuItem>
+               <MenuItem onClick={handleAutomotives}>Automotive</MenuItem>
                <MenuItem onClick={handleGasturbines}>Robotics</MenuItem>
            </Menu>    
 

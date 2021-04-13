@@ -15,6 +15,11 @@ const routes = [
     component: "AeroSpace",
   },
   {
+    path: ["/automotive", "/Automotive"],
+    exact: true,
+    component: "Automotive",
+  },
+  {
     path: ["/mechcomp", "/MechComp"],
     exact: true,
     component: "MechComp",

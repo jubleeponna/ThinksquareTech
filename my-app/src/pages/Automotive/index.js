@@ -3,7 +3,7 @@ import { lazy } from "react";
 //import Header from '../../Header';
 //import { Container } from "@material-ui/core";
 import Divider from '@material-ui/core/Divider';
-import AerospaceCard from './aerospaceCard';
+import AutomotiveCard from './automotiveCard';
 import Typography from '@material-ui/core/Typography';
 // import services  from '../../images/logo_new.png'
 
@@ -117,7 +117,7 @@ function TabPanel(props) {
 
 // export default function App() {
   const Dialogue = lazy(() => import("../../common/Dialog"));
-const AeroSpace = () => {
+const Automotive = () => {
 
     const classes = useStyles();
     const [value, setValue] = React.useState(0);
@@ -134,13 +134,13 @@ const AeroSpace = () => {
       {/* <Container > */}
       <br></br> <br></br>
       <Typography component="h5" variant="h5" color="textPrimary" display = "flex" gutterBottom>
-        <center>Aero Space Engineering </center>
+        <center>Automotive</center>
         </Typography>
         <p >
        
         < Divider />
         
-        <AerospaceCard />
+        <AutomotiveCard />
         <p></p>
         {/* // Adding More information        */}
         <AppBar position="static" className={classes.appbr}>
@@ -165,24 +165,25 @@ const AeroSpace = () => {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-      Think Square Technologies is a global engineering services company offering end-to-end engineering solutions across aerospace product development, product lifecycle management including aftermarket and supply chain, and digital transformation for our customers. We help our customers accelerate product development and innovation cycles, create alternate revenue streams, enhance consumer experience and make manufacturing processes, operations & supply chain more efficient. With our expertise in Mechanical Engineering, Electronics and Embedded Systems, Enterprise and Product Engineering software, we support aero systems, avionics, airframes and cabin systems. Our offshore Centres of Excellence allow you to leverage a global pool of talent for high-volume tasks.
+      Automotive companies are experiencing a rapidly evolving automotive landscape where cars are transforming from just being connected to becoming as smart as our smartphones. ThinkSquare Technologies is committed to solving such industry challenges for our global automotive customers by accelerating vehicle body and power train design, vehicle electronics, in- vehicle infotainment, ADAS, e-mobility, autonomous systems, fleet/asset management, and automotive security for automotive OEMs and Tier 1s of the world.
 
-We drive business outcomes for OEMs using digital initiatives like Design System Integration, Model Based Design, Digital Manufacturing, Digital Twin, Immersive Crew & Maintenance Training, Connected Aircraft, Real Time Remote Maintenance Support, Predictive Maintenance, In Flight Infotainment and Passenger & Crew Safety Surveillance.
+ThinkSqaure Tech is uniquely positioned to partner with companies through our deep domain knowledge in the automotive industry and our engineering expertise in Mechanical, Electronics, Software and Digital Technologies. Having worked with some of the world’s largest automotive OEMs and component suppliers, we understand the importance of delivering value to the automotive industry’s end customers. We drive business outcomes for OEMs and tier-1s using digital initiatives like predictive maintenance, passenger safety, spurious spare parts detection and eradication, digital twin, telematics, connected systems, immersive maintenance training, real time remote maintenance support, and immersive product marketing solutions. Ranging from embedded & electronics to mechanical engineering, our solutions and services are designed to enhance passenger experiences at every link of the value chain.
+
+We enable our customers in the automotive industry to create the frontier in safety, comfort and driving experience for consumers.
       </TabPanel>
 
       <TabPanel value={value} index={1}>
        
        <ul>
-         <li>3 Axis Gimbals for Target Detection and Tracking.</li>
-         <li>2 Axis Gimbal for LiDAR.</li>
-         <li> 2 Axis Gimbal for IRST. </li>
-         <li> 2 Channel Servo unit for Missile Guidance. </li>
-         <li> 3D Active Electronically Steered Array Antenna (AAAU).</li>
+         <li>Automotive BIW Meshing.</li>
+         <li>Whole Engine Model Meshing. </li>
+         <li>Impeller Meshing -Hex. </li>
+         <li> Automotive Gas spring. </li>
        </ul>
        <br></br> <br  ></br>
        Contact:<br></br>
       ThinkSquare Technologies pvt ltd
-      
+       
       </TabPanel>
 
 
@@ -234,4 +235,4 @@ We drive business outcomes for OEMs using digital initiatives like Design System
     </div>
   );
 }
-export default AeroSpace;
+export default Automotive;
