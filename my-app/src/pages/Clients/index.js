@@ -65,6 +65,7 @@ function TabPanel(props) {
           component="img"
           alt="Career"
           height="500"
+          width="100"
           image={Clients_img}
           title="ThinkSquareIT"
         />
@@ -79,11 +80,13 @@ function TabPanel(props) {
         
         <ul >
             <li>RAAD </li>
-            <li> Krithi Conepts</li>
+            <li> Suspa</li>
             <li> AVIEC</li>
-            <li> Cranes</li>
+            <li> Sigma Microsystems</li>
             <li> Optimum solutions</li>
+            <li>Cranes </li>
             <li>Microtech Group of companies  </li>
+            <li> Ananth Technologies</li>
                       
         </ul>
       </p>
